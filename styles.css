@@ -1,0 +1,49 @@
+li {
+    display: block;
+    position: relative;
+    width: 130px;
+    color: rgb(255,255,255);
+    background-color:rgba(0,0,0,0.1);
+    border-radius:8px;
+    margin: 8px;
+    padding:8px;
+    font-family: Arial;
+    cursor:pointer;
+}
+ul{
+    margin: 20px;
+}
+ul.sous_menu{
+    display:none;
+}
+li:hover{
+    color:rgb(0,255,255) ;;
+    background-color: rgba(0,0,255,0.2);
+}
+li:hover > ul.sous_menu{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 60%;
+}
+body{
+    background-image: url(images/Fond.png);
+}
+h1{
+    color:white;
+}
+.subMenuIcon{
+    float: right;
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.icon{
+    width: 17px;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+}
